@@ -261,7 +261,12 @@ $endif$
 
 $if(journalmode)$
 $else$
-\setlength{\cslhangindent}{0.5in}
+\ifcsname cslhangindent\endcsname
+ \setlength{\cslhangindent}{0.5in}
+\else
+  % code if it doesn't
+\fi
+
 $endif$
 
 $body$
