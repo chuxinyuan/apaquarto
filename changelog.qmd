@@ -17,6 +17,10 @@ engine: knitr
     * Journal format
     * Line numbering
     * Full language option support
+
+# Version 5.0.18
+- 2026-03-25
+- Multiple pull requests from [Michael Zehetleitner](https://github.com/michaelzehetleitner) to make the extension more robust.
     
 # Version 5.0.17
 - 2026-03-25
